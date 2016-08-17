@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="原始程式檔">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="標頭檔">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="資源檔">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="資源檔\Mulitmodal User Recognition">
+      <UniqueIdentifier>{033752a8-dab3-400e-90d7-be8f5575340a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="資源檔\Mulitmodal User Recognition\Multimodal Fusion">
+      <UniqueIdentifier>{0b99157b-9c80-4a73-943e-0558a3d6e121}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="資源檔\Mulitmodal User Recognition\Multimodal Fusion\Kinect">
+      <UniqueIdentifier>{5e15ddc7-9568-4ef9-8553-32de6f947ab5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="資源檔\Mulitmodal User Recognition\Multimodal Fusion\Face Modality">
+      <UniqueIdentifier>{92385fc6-bb97-4eef-801a-68d8c5ec26fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="資源檔\Mulitmodal User Recognition\Multimodal Fusion\Dress Color Modality">
+      <UniqueIdentifier>{2334acb4-2e28-455b-8c48-fc03f5319f9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="資源檔\Mulitmodal User Recognition\Multimodal Fusion\Body Modality">
+      <UniqueIdentifier>{9872d0e2-d3ea-4802-8d44-ac5872f81736}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="body_size_forward.h">
+      <Filter>資源檔\Mulitmodal User Recognition\Multimodal Fusion\Body Modality</Filter>
+    </ClInclude>
+    <ClInclude Include="svm.h">
+      <Filter>資源檔\Mulitmodal User Recognition\Multimodal Fusion\Body Modality</Filter>
+    </ClInclude>
+    <ClInclude Include="correlation_histogram.h">
+      <Filter>資源檔\Mulitmodal User Recognition\Multimodal Fusion\Dress Color Modality</Filter>
+    </ClInclude>
+    <ClInclude Include="dress_color.h">
+      <Filter>資源檔\Mulitmodal User Recognition\Multimodal Fusion\Dress Color Modality</Filter>
+    </ClInclude>
+    <ClInclude Include="Kinect_Skeleton.h">
+      <Filter>資源檔\Mulitmodal User Recognition\Multimodal Fusion\Kinect</Filter>
+    </ClInclude>
+    <ClInclude Include="face_match.h">
+      <Filter>資源檔\Mulitmodal User Recognition\Multimodal Fusion\Face Modality</Filter>
+    </ClInclude>
+    <ClInclude Include="face_model.h">
+      <Filter>資源檔\Mulitmodal User Recognition\Multimodal Fusion\Face Modality</Filter>
+    </ClInclude>
+    <ClInclude Include="User_Recog.h">
+      <Filter>資源檔</Filter>
+    </ClInclude>
+    <ClInclude Include="fuzzy_forward.h">
+      <Filter>資源檔\Mulitmodal User Recognition\Multimodal Fusion</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="body_size_forward.cpp">
+      <Filter>資源檔\Mulitmodal User Recognition\Multimodal Fusion\Body Modality</Filter>
+    </ClCompile>
+    <ClCompile Include="svm.cpp">
+      <Filter>資源檔\Mulitmodal User Recognition\Multimodal Fusion\Body Modality</Filter>
+    </ClCompile>
+    <ClCompile Include="correlation_histogram.cpp">
+      <Filter>資源檔\Mulitmodal User Recognition\Multimodal Fusion\Dress Color Modality</Filter>
+    </ClCompile>
+    <ClCompile Include="dress_color.cpp">
+      <Filter>資源檔\Mulitmodal User Recognition\Multimodal Fusion\Dress Color Modality</Filter>
+    </ClCompile>
+    <ClCompile Include="Kinect_Skeleton.cpp">
+      <Filter>資源檔\Mulitmodal User Recognition\Multimodal Fusion\Kinect</Filter>
+    </ClCompile>
+    <ClCompile Include="face_match.cpp">
+      <Filter>資源檔\Mulitmodal User Recognition\Multimodal Fusion\Face Modality</Filter>
+    </ClCompile>
+    <ClCompile Include="face_model.cpp">
+      <Filter>資源檔\Mulitmodal User Recognition\Multimodal Fusion\Face Modality</Filter>
+    </ClCompile>
+    <ClCompile Include="User_Recog.cpp">
+      <Filter>資源檔</Filter>
+    </ClCompile>
+    <ClCompile Include="fuzzy_forward.cpp">
+      <Filter>資源檔\Mulitmodal User Recognition\Multimodal Fusion</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
